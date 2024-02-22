@@ -11,7 +11,7 @@
         }
 
         .fundo{
-            background-image: linear-gradient(45deg,black, rgb(60, 20, 255));
+            background-image: linear-gradient(45deg,black, rgb(129, 47, 201));
             height: 100vh;
             color:aliceblue;
             font-family:Arial, Helvetica, sans-serif;
@@ -40,6 +40,16 @@
         .botao:houver{
             background-color: black;
         }
+        .botao-laranja {
+            background-color: orange;
+            width: 50px;
+            height: 50;
+            font-size: 25px;
+            cursor: pointer;
+            margin: 3px;
+            border: nome;
+            color: black;
+        }
 
         #resultado{
             background-color: white;
@@ -67,31 +77,31 @@
 
    <table>
        <tr>
-           <td><button class="botao" onclick="clean()">C</button></td>
-           <td><button class="botao" onclick="back()"><</button></td>
-           <td><button class="botao" onclick="insert('/')">/</button></td>
-           <td><button class="botao" onclick="insert('*')">X</button></td>
+           <td><button class="botao-laranja" onclick="clean()">C</button></td>
+           <td><button class="botao-laranja" onclick="back()"><</button></td>
+           <td><button class="botao-laranja" onclick="insert('/')">/</button></td>
+           <td><button class="botao-laranja" onclick="insert('*')">X</button></td>
        </tr>
        
        <tr>
            <td><button class="botao" onclick="insert('7')">7</button></td>
            <td><button class="botao" onclick="insert('8')">8</button></td>
            <td><button class="botao" onclick="insert('9')">9</button></td>
-           <td><button class="botao" onclick="insert('-')">-</button></td>
+           <td><button class="botao-laranja" onclick="insert('-')">-</button></td>
        </tr>
        
        <tr>
            <td><button class="botao" onclick="insert('4')">4</button></td>
            <td><button class="botao" onclick="insert('5')">5</button></td>
            <td><button class="botao" onclick="insert('6')">6</button></td>
-           <td><button class="botao" onclick="insert('+')">+</button></td>
+           <td><button class="botao-laranja" onclick="insert('+')">+</button></td>
        </tr>
 
        <tr>
            <td><button class="botao" onclick="insert('1')">1</button></td>
            <td><button class="botao" onclick="insert('2')">2</button></td>
            <td><button class="botao" onclick="insert('3')">3</button></td>
-           <td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular ()"">=</button></td>
+           <td rowspan="2"><button class="botao-laranja" style="height: 106px;" onclick="calcular ()"">=</button></td>
        </tr>
 
        <tr>
